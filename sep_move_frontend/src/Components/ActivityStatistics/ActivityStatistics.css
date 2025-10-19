@@ -1,0 +1,76 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.app-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3f51b5;
+    margin-bottom: 10px;
+}
+
+.app-subtitle {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #333;
+    margin: 5px 0;
+}
+
+
+
+.point-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.point-selector option {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.point-selector {
+    width: 250px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.calculate-button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculate-button:hover {
+    background-color: #5c6bc0;
+}
+
+.result-display {
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #e3f2fd;
+    color: #333;
+    font-weight: bold;
+    white-space: pre-wrap;
+    border-radius: 8px;
+    border: 1px solid #90caf9;
+}

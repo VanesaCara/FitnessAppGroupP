@@ -1,0 +1,97 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container for the comments section */
+.comment-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.comment-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* List of comments */
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comment-list li {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+/* Comment text styling */
+.comment-list li p {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+/* Delete button */
+.comment-list li button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-list li button:hover {
+    background-color: #c0392b;
+}
+
+/* Add comment section */
+.add-comment-container {
+    margin-top: 20px;
+}
+
+.add-comment-container textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: none;
+}
+
+.add-comment-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-comment-container button:hover {
+    background-color: #2980b9;
+}

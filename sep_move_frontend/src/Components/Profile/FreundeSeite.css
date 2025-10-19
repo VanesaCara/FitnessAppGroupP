@@ -1,0 +1,144 @@
+/* Allgemeines Layout für die Seite */
+.freunde-seite {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Layout für den Content-Bereich */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Überschriften */
+h1, h2 {
+    text-align: center;
+    color: #4a4a4a;
+}
+
+/* Suchleiste */
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Privatsphäre-Button */
+.privacy-toggle {
+    display: block;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.privacy-toggle:hover {
+    background-color: #5a6268;
+}
+
+/* Freundesliste */
+.friends-list {
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.friend-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.friend-item span {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Entfernen-Button für Freunde */
+.remove-friend {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-friend:hover {
+    background-color: #c82333;
+}
+
+/* Freundschaftsanfragen */
+.friend-requests {
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+.request-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.request-item span {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Buttons für Annehmen und Ablehnen */
+.btn-sm {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Keine Freunde oder Freundschaftsanfragen gefunden */
+p {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    margin: 10px 0;
+}

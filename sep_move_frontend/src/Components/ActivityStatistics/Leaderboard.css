@@ -1,0 +1,42 @@
+/* Wrapper-Stil nur für das Leaderboard */
+.LeaderboardWrapper {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Zentriert die Tabelle */
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Stil für die Leaderboard-Tabelle */
+.Leaderboard {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Kopfzeilen der Tabelle */
+.Leaderboard thead {
+    background-color: #1d8aff;
+    color: #ffffff;
+}
+
+.Leaderboard .Header {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Tabellenzeilen */
+.Leaderboard .Data {
+    padding: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+.highlight {
+    background-color: #d1e7ff;
+    font-weight: bold;
+    color: #333;
+}

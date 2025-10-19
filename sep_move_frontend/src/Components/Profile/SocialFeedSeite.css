@@ -1,0 +1,128 @@
+/* Allgemeiner Container für die Social Feed Seite */
+.socialfeed-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Überschrift */
+.socialfeed-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.socialfeed-container p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Container für die Aktivitätenliste */
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Karten für jede Aktivität */
+.activity-card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Daten-Art für die Umrandungsfarben */
+.activity-card[data-art="Eigen"] {
+    border-left: 4px solid #ffcc00; /* Gelb */
+}
+
+.activity-card[data-art="Freund"] {
+    border-left: 4px solid #4CAF50; /* Grün */
+}
+
+.activity-card[data-art="Öffentlich"] {
+    border-left: 4px solid #ccc; /* Grau */
+}
+
+/* Überschrift der Aktivität */
+.activity-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Details der Aktivität */
+.activity-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Container für die Buttons */
+.activity-card .button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Like-Button */
+.activity-card .like-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #4CAF50; /* Grün */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.activity-card .like-button:hover {
+    background-color: #45a049; /* Dunkleres Grün */
+}
+
+.activity-card .like-button.liked {
+    background-color: #ff4d4d; /* Rot, wenn geliked */
+}
+
+.activity-card .like-button.liked:hover {
+    background-color: #ff6666; /* Helleres Rot */
+}
+
+/* Kommentar-Button */
+.activity-card .comment-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007BFF; /* Blau */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.activity-card .comment-button:hover {
+    background-color: #0056b3; /* Dunkleres Blau */
+}
+
+/* Nachricht, wenn keine Aktivitäten gefunden wurden */
+.activity-list p {
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+}

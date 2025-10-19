@@ -1,0 +1,61 @@
+/* Container */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Titel */
+.welcome-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3f51b5;
+    margin: 0;
+}
+
+/* Beschreibungstext */
+.welcome-text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+/* Button-Container */
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Buttons */
+.welcome-button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Login-Button */
+.login-button {
+    background-color: #3f51b5;
+}
+
+.login-button:hover {
+    background-color: #5c6bc0;
+}
+
+/* Registrieren-Button */
+.register-button {
+    background-color: #4caf50;
+}
+
+.register-button:hover {
+    background-color: #66bb6a;
+}

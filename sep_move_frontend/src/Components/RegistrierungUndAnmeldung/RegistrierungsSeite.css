@@ -1,0 +1,83 @@
+/* Container */
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f9fc;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Titel */
+.registration-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1555c8; /* Ein frisches Grün, das zur Registrierung passt */
+    margin: 0;
+}
+
+/* Beschreibungstext */
+.registration-text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+/* Eingabefelder */
+.input-field {
+    padding: 10px;
+    width: 250px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Dropdown-Felder */
+.select-field {
+    padding: 10px;
+    width: 270px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Fehlertext */
+.error-text {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Button */
+.register-button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1913dc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.register-button:hover {
+    background-color: #1379ba;
+}
+
+/* Checkbox-Label */
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+/* Checkbox */
+.checkbox {
+    margin-right: 10px;
+}

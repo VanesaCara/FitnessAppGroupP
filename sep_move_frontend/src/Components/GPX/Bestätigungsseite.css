@@ -1,0 +1,112 @@
+
+body {;
+    display: flex;
+}
+
+/* Container */
+.details-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #405f8e;
+    font-family:   "Georgia", "serif";
+    border: none;
+    /*Der erste font type wird priorisiert und wenn möglich verwendet,
+     ansonsten wird einer der nachfolgenden types als Alternativebenutzt. Man sollte als letzes vorzugsweise
+     eine generische font-family angeben, damit das Programm einen Ersatz besser finden kann.
+      "monospace", "sans-serif", "cursive" etc sind font-families. Quelle: w3schools.com/css/css_font.asp
+     */
+    color: #333;
+}
+
+/* Titel */
+.details-title {
+
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    color: #ffffff;
+    margin: 50px;
+}
+
+
+/* Beschreibungstext */
+
+
+
+/* Button-Container */
+.button-container {
+    display: flex;
+    gap: 20px;
+    background-color: #405f8e;
+
+}
+
+/* Buttons */
+.confirmation-button {
+    padding: 10px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: default;
+    background-color: #405f8e;
+    transition: background-color 0.3s;
+}
+
+
+.details-button {
+    text-align: left;
+    align-items: center;
+    padding: 14px 75px;
+    font-family:   "Courier New", "monospace";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #050303;
+    margin: 10px 10px;
+    cursor: default;
+
+}
+
+.choose-button {background-color: #e88d08;
+
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;}
+
+/* confirm-Button */
+.confirm-button {
+    background-color: #f2ae50;
+
+    padding: 14px 10px;
+    font-size: 1rem;
+
+}
+
+.confirm-button:hover {
+    background-color: #e69142;
+    font-size: 16px;
+    padding: 20px 50px;
+
+}
+
+/* back-Button */
+.back-button {
+    background-color: #bac4ba;
+    color: #050303;
+
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.back-button:hover {
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 20px 50px;
+}

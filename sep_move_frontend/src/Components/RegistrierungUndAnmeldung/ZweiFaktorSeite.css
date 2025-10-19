@@ -1,0 +1,79 @@
+.two-factor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9fb;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.two-factor-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3f51b5;
+    margin-bottom: 10px;
+}
+
+.two-factor-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.two-factor-input {
+    padding: 10px;
+    width: 200px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+    margin-top: 20px;
+}
+
+.two-factor-input:focus {
+    border-color: #3f51b5;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.two-factor-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.confirm-button {
+    background-color: #4caf50;
+}
+
+.confirm-button:hover {
+    background-color: #66bb6a;
+}
+
+
+.resend-button {
+    background-color: #3f51b5;
+}
+
+.resend-button:hover {
+    background-color: #5c6bc0;
+}
+
+
+.error-message {
+    color: red;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}

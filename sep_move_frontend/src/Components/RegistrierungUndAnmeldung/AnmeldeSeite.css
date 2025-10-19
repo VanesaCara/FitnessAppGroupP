@@ -1,0 +1,64 @@
+/* Hauptcontainer */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Titel */
+.login-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3f51b5;
+    margin: 0 0 20px;
+}
+
+/* Input-Container */
+.input-container {
+    margin-top: 20px;
+}
+
+/* Eingabefelder */
+.login-input {
+    padding: 10px;
+    width: 200px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.login-input:focus {
+    border-color: #3f51b5;
+}
+
+/* Anmelde-Button */
+.login-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #5c6bc0;
+}
+
+/* Fehlermeldung */
+.error-message {
+    color: red;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}

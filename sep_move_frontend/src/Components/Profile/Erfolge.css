@@ -1,0 +1,44 @@
+/* Alles*/
+.erfolge-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header*/
+.erfolge-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Inneres layout für badges */
+.erfolge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px; /* Space between badges */
+    align-items: center;
+}
+
+/* Style for each badge container */
+.achievement-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+
+}
+
+/* Style for each badge image */
+.badge-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
